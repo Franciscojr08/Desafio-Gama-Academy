@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game BR</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/Aps/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Yanone+Kaffeesatz:wght@200;392;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/script.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div>
+                <a href="#">
+                    <img class="navbar-logo" src="./img/Aps/logo-aps-01.png">
+                </a>
+            </div>
+
+            <div>
+                <ul class="nav-list" id="navListOne">
+                    <li class="list-item"><a href="#">Home</a></li>
+                    <li class="list-item"><a href="#">Ofertas</a></li>
+                    <li class="list-item"><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="menu" id="toggle-Button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="banner-logo">
+            <img src="./img/banners/banner-03.gif">
+            </div>
+            <p><img src="./img/Aps/logo-aps-01.png"></p>
+        </div>
+
+        <div class="ofertas">
+            <div class="ofertas-logo"><img src="./img/banners/banner-04.png"></div>
+        </div>
+
+        <div class="container">
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-01.png">
+                <p>Console PlayStation 4 Slim 1TB</p>
+                <span>R$ 2.679,00</span>
+            </div>
+                
+            <div class="container-logo">
+                <img src="./img/produtos/produto-02.png">
+                <p>Console Xbox One S 1TB</p>
+                <span>R$ 2.699,00</span>
+            </div>
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-03.png">
+                <p>Playstation 5 - Com Leitor Disco</p>
+                <span>R$ 6.450,00</span>
+            </div>
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-07.png">
+                <p>Xbox Series S 2020 Nova Geração</p>
+                <span>R$ 2.798,00</span>
+            </div>
+        
+        </div>
+
+        <div class="container">
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-04.png">
+                <p>FIFA 21 Para PS4</p>
+                <span>R$ 169,90</span>
+            </div>
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-05.png">
+                <p>Tony Hawk's™ Pro Skater™ 1 + 2</p>
+                <span>R$ 199,00</span>
+            </div>
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-06.png">
+                <p>Marvel's Spider-Man: Miles Morales</p>
+                <span>R$ 199,00</span>
+            </div>
+
+            <div class="container-logo">
+                <img src="./img/produtos/produto-08.png">
+                <p>Forza Horizon 4 - Xbox One</p>
+                <span>R$ 189,90</span>
+            </div>
+
+        </div>
+
+        <form name="forCad" class="cadastrar">
+
+            <p>Cadastre seu e-mail e fique por dentro de todas novidades!</p>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nomeCad" id="nome" required placeholder="Digite seu nome aqui..." required />
+
+            <label for="email">E-mail</label>
+            <input type="email" name="emailCad" id="email" required placeholder="Digite seu e-mail aqui..." required />
+
+            <button type="button" onclick="salvarDados()">Cadastrar</button>
+
+        </form>
+
+    </main>
+    
+    <footer>
+        <p>Landing page developed by Junior Santos</p>
+    </footer>
+    
+</body>
+
+</html>
